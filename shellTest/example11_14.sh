@@ -20,4 +20,10 @@ do
     sum=`expr $sum + $i`
 done 
 echo "누적합 결과 $sum"
+
+for ((cnt=1; cnt<10; cnt++))
+do
+    gop=`expr $cnt \* 3`
+    echo "3 x $cnt = $gop"
+done
 exit 0
